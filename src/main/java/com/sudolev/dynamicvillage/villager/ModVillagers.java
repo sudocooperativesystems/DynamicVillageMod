@@ -13,6 +13,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class ModVillagers {
     public static final DeferredRegister<PoiType> POI_TYPES =
@@ -51,22 +52,14 @@ public class ModVillagers {
                     x -> x.get() == CREATE_MINER_POI.get(), ImmutableSet.of(), ImmutableSet.of(),
                     SoundEvents.VILLAGER_WORK_MASON));
 
-
-
-
     public static void registerPOIs() {
         try {
-            ObfuscationReflectionHelper.findMethod(PoiType.class,
-                    "registerBlockStates", PoiType.class).invoke(null, CREATE_ENGINEER_POI.get());
-            ObfuscationReflectionHelper.findMethod(PoiType.class,
-                    "registerBlockStates", PoiType.class).invoke(null, CREATE_HYDRAULIC_ENGINEER_POI.get());
-            ObfuscationReflectionHelper.findMethod(PoiType.class,
-                    "registerBlockStates", PoiType.class).invoke(null, CREATE_MECHANIC_POI.get());
-            ObfuscationReflectionHelper.findMethod(PoiType.class,
-                    "registerBlockStates", PoiType.class).invoke(null, CREATE_MINER_POI.get());
-
-
-        } catch (InvocationTargetException | IllegalAccessException exception) {
+            Method registerBlockStatesMethod = ObfuscationReflectionHelper.findMethod(PoiType.class, "registerBlockStates", PoiType.class);
+            registerBlockStatesMethod.invoke(null, CREATE_ENGINEER_POI.get());
+            registerBlockStatesMethod.invoke(null, CREATE_HYDRAULIC_ENGINEER_POI.get());
+            registerBlockStatesMethod.invoke(null, CREATE_MECHANIC_POI.get());
+            registerBlockStatesMethod.invoke(null, CREATE_MINER_POI.get());
+        } catch (InvocationTargetException | IllegalAccessException | ObfuscationReflectionHelper.UnableToFindMethodException exception) {
             exception.printStackTrace();
         }
     }
