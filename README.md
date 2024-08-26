@@ -1,5 +1,5 @@
 
-<h1 align="center"><img src="https://github.com/user-attachments/assets/1f1f641f-ea7f-4219-b697-8afef74f0b48" width="72px"><br>Create: Dynamic Village
+<h1 align="center"><img src="https://github.com/user-attachments/assets/bfc5e5fd-03f4-46f2-a45d-69c9b1afe28c" width="84px"><br>Create: Dynamic Village
 <div align="center">
   <div align="center">
    <img src="https://img.shields.io/badge/available%20for-1.19.2‒1.20.1-992333" alt="available for 1.19.2-1.20.1">
@@ -11,7 +11,6 @@
 </div></h1> 
 
 **Create: Dynamic Village is an expansion to Create that adds a host of Create-mod village professions & structures.**
-
 
 
 ![banner](https://github.com/sudolev/DynamicVillageMod/assets/61996958/40b915c2-4707-4376-a1c0-5ec6a5a55bcc)
