@@ -3,15 +3,15 @@
 	"id": "dynamicvillage",
 	"version": "${version}",
 	"name": "Dynamic Village",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Dynamic Village is an expansion to Create that adds a host of Create-mod village professions & structures",
 	"authors": [
-		"Me!"
+		"lev"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/dynamic-village",
+		"sources": "https://github.com/aesefficio/DynamicVillageMod"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/dynamicvillage/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -29,6 +29,5 @@
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
 	}
 }
