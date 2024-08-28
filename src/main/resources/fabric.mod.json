@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"ax.a0.DynamicVillage"
+			"ax.a0.dynamicvillage.DynamicVillage"
 		]
 	},
 	"mixins": [
@@ -26,6 +26,7 @@
 		"fabricloader": ">=0.16.3",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
+		"create": ">=0.5.1-d-build.5+mc1.20.1",
 		"fabric-api": "*"
 	},
 	"suggests": {
