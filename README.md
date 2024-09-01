@@ -57,13 +57,16 @@ Bug reports, suggestions, and ideas are incredibly useful and much appreciated. 
 
 Translation help is really appreciated. The best way to do so is to make a GitHub issue or pull request. 
 
-**Thanks to [@EDGW](https://github.com/EDGW) for translating Dynamic Village to Chinese (Simplified).** 🎉
+**Thanks to [@EDGW](https://github.com/EDGW) for localizing Dynamic Village to Chinese (Simplified).** 🎉
 
-**Thanks to [Khao](https://github.com/Khaogamermain01) for translating Dynamic Village to Thai.** 🎉
+**Thanks to [Khao](https://github.com/Khaogamermain01) for localizing Dynamic Village to Thai.** 🎉
 
-**Thanks to [@RemVan](https://github.com/RemVan) for translating Dynamic Village to Russian.** 🎉
+**Thanks to [@RemVan](https://github.com/RemVan) for localizing Dynamic Village to Russian.** 🎉
 
-**Thanks to [@kienerxyzzy](https://github.com/kienerxyzzy) for translating Dynamic Village to Vietnamese.** 🎉
+**Thanks to [@kienerxyzzy](https://github.com/kienerxyzzy) for localizing Dynamic Village to Vietnamese.** 🎉
+
+**Thanks to [@noriban](https://github.com/noriban) for localizing Dynamic Village to Polish.** 🎉
+
 
 ---
 
