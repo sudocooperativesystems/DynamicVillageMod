@@ -1,4 +1,3 @@
-
 <h1 align="center"><img src="https://github.com/user-attachments/assets/bfc5e5fd-03f4-46f2-a45d-69c9b1afe28c" width="84px"><br>Create: Dynamic Village
 <div align="center">
   <div align="center">
@@ -76,3 +75,5 @@ Translation help is really appreciated. The best way to do so is to make a GitHu
 <br><br>
    
 Report Issues <a href="https://github.com/sudolev/DynamicVillageMod/issues">here</a></h3>
+
+[![Dynamic Village Banner](https://i.ibb.co/4tvGCgv/dynamicvillage.png)](https://url-shortener.curseforge.com/5srLQ)
